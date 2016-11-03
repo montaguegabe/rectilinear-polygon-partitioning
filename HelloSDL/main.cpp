@@ -11,25 +11,21 @@
 #include <SDL/SDL_opengl.h>
 
 #include "main.h"
+#include "MathRenderer.hpp"
 
 #define WIDTH 640
 #define HEIGHT 480
 #define WINDOW_TITLE "Rectilinear Polygon Partition"
 
 SDL_Surface *screen;
+MathRenderer mathDraw;
 
 void render() {
+    
     glClearColor(0,0,0,0);
     glClear(GL_COLOR_BUFFER_BIT);
     
-    glBegin(GL_TRIANGLES);
-    {
-        glColor3f(1,0,0);
-        glVertex2f(0,0);
-        glVertex2f(.5,0);
-        glVertex2f(.5,.5);
-    }
-    glEnd();
+    mathDraw.drawTest();
 }
 
 int SDL_main (int argc, char **argv) {
