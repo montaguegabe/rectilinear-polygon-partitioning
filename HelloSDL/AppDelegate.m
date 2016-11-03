@@ -6,7 +6,7 @@
 //  Copyright 2011 Richard Carter. All rights reserved.
 //
 
-#import "HelloSDLAppDelegate.h"
+#import "AppDelegate.h"
 
 @implementation HelloSDLAppDelegate
 

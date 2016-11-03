@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		95651D791DCBCF6C00929DB3 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95651D781DCBCF6C00929DB3 /* SDL.framework */; };
-		95C9F6571DCBD1B70050DBD0 /* HelloSDLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C9F6531DCBD1B70050DBD0 /* HelloSDLAppDelegate.m */; };
+		95C9F6571DCBD1B70050DBD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C9F6531DCBD1B70050DBD0 /* AppDelegate.m */; };
 		95C9F6581DCBD1B70050DBD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95C9F6541DCBD1B70050DBD0 /* main.cpp */; };
 		95C9F65B1DCBD1BD0050DBD0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C9F65A1DCBD1BD0050DBD0 /* SDLMain.m */; };
 		9C93E39613942B5A0096FAB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C93E39513942B5A0096FAB3 /* Cocoa.framework */; };
@@ -20,8 +20,8 @@
 		95651D761DCBCF1300929DB3 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		95651D781DCBCF6C00929DB3 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
 		95C9F6511DCBD1B70050DBD0 /* Rectilinear Polygon Partitioning-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rectilinear Polygon Partitioning-Prefix.pch"; sourceTree = "<group>"; };
-		95C9F6521DCBD1B70050DBD0 /* HelloSDLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloSDLAppDelegate.h; sourceTree = "<group>"; };
-		95C9F6531DCBD1B70050DBD0 /* HelloSDLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloSDLAppDelegate.m; sourceTree = "<group>"; };
+		95C9F6521DCBD1B70050DBD0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95C9F6531DCBD1B70050DBD0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		95C9F6541DCBD1B70050DBD0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		95C9F6551DCBD1B70050DBD0 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		95C9F6591DCBD1BD0050DBD0 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
@@ -49,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9564C5301DCBD37D00AE9094 /* OSX Base */ = {
+			isa = PBXGroup;
+			children = (
+				95C9F6521DCBD1B70050DBD0 /* AppDelegate.h */,
+				95C9F6531DCBD1B70050DBD0 /* AppDelegate.m */,
+				95C9F6511DCBD1B70050DBD0 /* Rectilinear Polygon Partitioning-Prefix.pch */,
+				9C93E3AA13942B5A0096FAB3 /* MainMenu.xib */,
+			);
+			name = "OSX Base";
+			sourceTree = "<group>";
+		};
 		9C93E38613942B590096FAB3 = {
 			isa = PBXGroup;
 			children = (
@@ -91,14 +102,11 @@
 		9C93E39B13942B5A0096FAB3 /* SDL */ = {
 			isa = PBXGroup;
 			children = (
-				9C93E3AA13942B5A0096FAB3 /* MainMenu.xib */,
-				95C9F6511DCBD1B70050DBD0 /* Rectilinear Polygon Partitioning-Prefix.pch */,
-				95C9F6521DCBD1B70050DBD0 /* HelloSDLAppDelegate.h */,
-				95C9F6531DCBD1B70050DBD0 /* HelloSDLAppDelegate.m */,
+				95C9F6551DCBD1B70050DBD0 /* main.h */,
 				95C9F6541DCBD1B70050DBD0 /* main.cpp */,
 				95C9F6591DCBD1BD0050DBD0 /* SDLMain.h */,
 				95C9F65A1DCBD1BD0050DBD0 /* SDLMain.m */,
-				95C9F6551DCBD1B70050DBD0 /* main.h */,
+				9564C5301DCBD37D00AE9094 /* OSX Base */,
 			);
 			name = SDL;
 			path = HelloSDL;
@@ -168,7 +176,7 @@
 			files = (
 				95C9F65B1DCBD1BD0050DBD0 /* SDLMain.m in Sources */,
 				95C9F6581DCBD1B70050DBD0 /* main.cpp in Sources */,
-				95C9F6571DCBD1B70050DBD0 /* HelloSDLAppDelegate.m in Sources */,
+				95C9F6571DCBD1B70050DBD0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
