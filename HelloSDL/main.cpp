@@ -14,7 +14,7 @@
 
 #define WIDTH 640
 #define HEIGHT 480
-#define WINDOW_TITLE "Hello, SDL!"
+#define WINDOW_TITLE "Rectilinear Polygon Partition"
 
 SDL_Surface *screen;
 
@@ -26,11 +26,7 @@ void render() {
     {
         glColor3f(1,0,0);
         glVertex2f(0,0);
-        
-        glColor3f(0,1,0);
         glVertex2f(.5,0);
-        
-        glColor3f(0,0,1);
         glVertex2f(.5,.5);
     }
     glEnd();

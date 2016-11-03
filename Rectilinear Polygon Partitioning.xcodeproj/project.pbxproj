@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		95651D761DCBCF1300929DB3 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		95651D781DCBCF6C00929DB3 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
-		95C9F6511DCBD1B70050DBD0 /* HelloSDL-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloSDL-Prefix.pch"; sourceTree = "<group>"; };
+		95C9F6511DCBD1B70050DBD0 /* Rectilinear Polygon Partitioning-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rectilinear Polygon Partitioning-Prefix.pch"; sourceTree = "<group>"; };
 		95C9F6521DCBD1B70050DBD0 /* HelloSDLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloSDLAppDelegate.h; sourceTree = "<group>"; };
 		95C9F6531DCBD1B70050DBD0 /* HelloSDLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloSDLAppDelegate.m; sourceTree = "<group>"; };
 		95C9F6541DCBD1B70050DBD0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -52,8 +52,7 @@
 		9C93E38613942B590096FAB3 = {
 			isa = PBXGroup;
 			children = (
-				9C93E3BA13942F620096FAB3 /* OpenGL.framework */,
-				9C93E39B13942B5A0096FAB3 /* Rectilinear Polygon */,
+				9C93E39B13942B5A0096FAB3 /* SDL */,
 				9C93E39413942B5A0096FAB3 /* Frameworks */,
 				9C93E39213942B5A0096FAB3 /* Products */,
 			);
@@ -70,6 +69,7 @@
 		9C93E39413942B5A0096FAB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C93E3BA13942F620096FAB3 /* OpenGL.framework */,
 				95651D781DCBCF6C00929DB3 /* SDL.framework */,
 				95651D761DCBCF1300929DB3 /* SDL2.framework */,
 				9C93E39513942B5A0096FAB3 /* Cocoa.framework */,
@@ -88,11 +88,11 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		9C93E39B13942B5A0096FAB3 /* Rectilinear Polygon */ = {
+		9C93E39B13942B5A0096FAB3 /* SDL */ = {
 			isa = PBXGroup;
 			children = (
 				9C93E3AA13942B5A0096FAB3 /* MainMenu.xib */,
-				95C9F6511DCBD1B70050DBD0 /* HelloSDL-Prefix.pch */,
+				95C9F6511DCBD1B70050DBD0 /* Rectilinear Polygon Partitioning-Prefix.pch */,
 				95C9F6521DCBD1B70050DBD0 /* HelloSDLAppDelegate.h */,
 				95C9F6531DCBD1B70050DBD0 /* HelloSDLAppDelegate.m */,
 				95C9F6541DCBD1B70050DBD0 /* main.cpp */,
@@ -100,7 +100,7 @@
 				95C9F65A1DCBD1BD0050DBD0 /* SDLMain.m */,
 				95C9F6551DCBD1B70050DBD0 /* main.h */,
 			);
-			name = "Rectilinear Polygon";
+			name = SDL;
 			path = HelloSDL;
 			sourceTree = "<group>";
 		};
@@ -133,7 +133,7 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Student;
 			};
-			buildConfigurationList = 9C93E38B13942B590096FAB3 /* Build configuration list for PBXProject "HelloSDL" */;
+			buildConfigurationList = 9C93E38B13942B590096FAB3 /* Build configuration list for PBXProject "Rectilinear Polygon Partitioning" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -257,7 +257,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HelloSDL/HelloSDL-Prefix.pch";
+				GCC_PREFIX_HEADER = "HelloSDL/Rectilinear Polygon Partitioning-Prefix.pch";
 				INFOPLIST_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.inh.sdl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,7 +277,7 @@
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HelloSDL/HelloSDL-Prefix.pch";
+				GCC_PREFIX_HEADER = "HelloSDL/Rectilinear Polygon Partitioning-Prefix.pch";
 				INFOPLIST_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.inh.sdl.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C93E38B13942B590096FAB3 /* Build configuration list for PBXProject "HelloSDL" */ = {
+		9C93E38B13942B590096FAB3 /* Build configuration list for PBXProject "Rectilinear Polygon Partitioning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C93E3AD13942B5A0096FAB3 /* Debug */,

@@ -35,7 +35,7 @@
             BlueprintIdentifier = "9C93E39013942B5A0096FAB3"
             BuildableName = "Rectilinear Polygon.app"
             BlueprintName = "Rectilinear Polygon"
-            ReferencedContainer = "container:HelloSDL.xcodeproj">
+            ReferencedContainer = "container:Rectilinear Polygon Partitioning.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "9C93E39013942B5A0096FAB3"
             BuildableName = "Rectilinear Polygon.app"
             BlueprintName = "Rectilinear Polygon"
-            ReferencedContainer = "container:HelloSDL.xcodeproj">
+            ReferencedContainer = "container:Rectilinear Polygon Partitioning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
