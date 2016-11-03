@@ -11,7 +11,6 @@
 		95C9F6571DCBD1B70050DBD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C9F6531DCBD1B70050DBD0 /* AppDelegate.m */; };
 		95C9F6581DCBD1B70050DBD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95C9F6541DCBD1B70050DBD0 /* main.cpp */; };
 		95C9F65B1DCBD1BD0050DBD0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C9F65A1DCBD1BD0050DBD0 /* SDLMain.m */; };
-		95E178A51DCBD51E00DD0528 /* Z2Subset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E178A31DCBD51E00DD0528 /* Z2Subset.cpp */; };
 		95E178A91DCBDA0900DD0528 /* MathRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E178A71DCBDA0900DD0528 /* MathRenderer.cpp */; };
 		95E178AB1DCBDC1200DD0528 /* Basis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E178AA1DCBDC1200DD0528 /* Basis.cpp */; };
 		9C93E39613942B5A0096FAB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C93E39513942B5A0096FAB3 /* Cocoa.framework */; };
@@ -29,8 +28,6 @@
 		95C9F6551DCBD1B70050DBD0 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		95C9F6591DCBD1BD0050DBD0 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
 		95C9F65A1DCBD1BD0050DBD0 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = SOURCE_ROOT; };
-		95E178A31DCBD51E00DD0528 /* Z2Subset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Z2Subset.cpp; sourceTree = "<group>"; };
-		95E178A41DCBD51E00DD0528 /* Z2Subset.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Z2Subset.hpp; sourceTree = "<group>"; };
 		95E178A61DCBD5CD00DD0528 /* Basis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Basis.h; sourceTree = "<group>"; };
 		95E178A71DCBDA0900DD0528 /* MathRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathRenderer.cpp; sourceTree = "<group>"; };
 		95E178A81DCBDA0900DD0528 /* MathRenderer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MathRenderer.hpp; sourceTree = "<group>"; };
@@ -76,8 +73,6 @@
 				95E178AC1DCBDC2600DD0528 /* Math.h */,
 				95E178A61DCBD5CD00DD0528 /* Basis.h */,
 				95E178AA1DCBDC1200DD0528 /* Basis.cpp */,
-				95E178A31DCBD51E00DD0528 /* Z2Subset.cpp */,
-				95E178A41DCBD51E00DD0528 /* Z2Subset.hpp */,
 			);
 			name = Math;
 			path = HelloSDL;
@@ -205,7 +200,6 @@
 				95C9F6581DCBD1B70050DBD0 /* main.cpp in Sources */,
 				95C9F6571DCBD1B70050DBD0 /* AppDelegate.m in Sources */,
 				95E178AB1DCBDC1200DD0528 /* Basis.cpp in Sources */,
-				95E178A51DCBD51E00DD0528 /* Z2Subset.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

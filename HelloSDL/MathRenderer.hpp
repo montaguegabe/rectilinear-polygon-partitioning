@@ -10,12 +10,13 @@
 #define MathRenderer_hpp
 
 #include <stdio.h>
+#include "Basis.h"
 
 class MathRenderer {
 public:
     
     // Frame limits
-    
+    void setFrame()
     
     // Drawing
     void drawTest();

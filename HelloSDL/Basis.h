@@ -12,6 +12,9 @@
 // Implement integers with normal int sizes
 typedef int Int;
 
+// Implement real numbers with doubles
+typedef double Real;
+
 // Implement sequences with vectors
 #include <vector>
 template <typename T>
@@ -27,37 +30,43 @@ template <typename T>
 class Pair {
 public:
     Pair(T first, T second);
+    
+    T first() { return _first; };
+    T second() { return _second; };
+    
+    void setFirst(T val) { _first = val; };
+    void setSecond(T val) { _second = val; };
+    
     T& operator[] (const short index);
     
-private:
+protected:
     T _first;
     T _second;
 };
 
-
-// Points in Z2
-class Point {
+// Coordinate
+template <typename T>
+class Coordinate : Pair<T> {
+public:
+    Coordinate(Int x, Int y) : Pair<T>(x, y) {}
     
-    Int x;
-    Int y;
-    
-    Point() {
-        this->initWithXY(0, 0);
-    }
-    
-    Point(Int x, Int y) {
-        this->initWithXY(x, y);
-    }
-    
-private:
-    
-    void initWithXY(Int x, Int y) {
-        this->x = x;
-        this->y = y;
-    }
+    T x() { return this->_first; };
+    T y() { return this->_second; };
+    void setX(T val) { this->_first = val; };
+    void setY(T val) { this->_second = val; };
 };
 
-// Aliases
-typedef Point Z2;
+// Coordinate in Z2
+class Z2 : Coordinate<Int> {
+public:
+    Z2(Int x, Int y) : Coordinate<Int>(x, y) {}
+};
+typedef Z2 Point;
+
+// Coordinate in R2
+class R2 : Coordinate<Real> {
+public:
+    R2(Real x, Real y) : Coordinate<Real>(x, y) {}
+};
 
 #endif /* math_h */
